@@ -1,6 +1,59 @@
-# Disease-Prediction-System-Using-Machine-Learning
-The proposed system Disease prediction system using Machine learning algorithms offers a comprehensive solution to address the early detection and risk assessment of diseases, leveraging various medical and lifestyle data sources to enable proactive interventions and reduce morbidity and mortality rates. By using various machine learning algorithms like, naïve bayes algorithm and python library like tkinter. 
-The proposed Disease Prediction System employs a dataset comprising a diverse range of symptoms associated with various diseases. A preprocessing stage involves data cleaning, normalization, and feature extraction to enhance the quality of input data. Machine learning algorithms are employed for classification. The comparative analysis of these algorithms ensures the selection of the most suitable model for accurate disease prediction. 
-It also incorporates a user-friendly interface to collect and input patient symptoms. The results demonstrate the effectiveness of the proposed Disease Prediction System in accurately predicting diseases based on symptoms. The integration of machine learning algorithms in disease prediction systems holds promising potential for revolutionizing healthcare practices and improving overall patient care.
+# Disease Prediction System Using Machine Learning
 
-Disease Prediction System using Machine Learning is the system that is used to predict the diseases from the symptoms which are given by the patients or any user. The system processes the symptoms provided by the user as input and gives the output as the probability of the disease. Naïve Bayes classifier is used in the prediction of the disease which is a supervised machine learning algorithm. The probability of the disease is calculated by the Naïve Bayes algorithm. With an increase in biomedical and healthcare data, accurate analysis of medical data benefits early disease detection and patient care. It helps in predicting diseases like Diabetes, Malaria, Jaundice, Dengue, and Tuberculosis.
+A machine learning-based application that predicts possible diseases from user-provided symptoms using the Naïve Bayes algorithm. The project includes data preprocessing, model training, and a user-friendly graphical interface (GUI) developed with Tkinter.
+
+## Project Overview
+
+This project was developed as my final-year B.Tech Computer Science Engineering project. It demonstrates the application of machine learning in healthcare by predicting diseases based on symptoms entered by the user. The system processes symptom data, applies a trained Naïve Bayes classifier, and displays the predicted disease through an easy-to-use desktop interface.
+
+## Features
+
+- Predicts diseases based on user-entered symptoms.
+- Uses the Naïve Bayes machine learning algorithm for classification.
+- Performs data preprocessing to improve prediction accuracy.
+- Provides a simple and user-friendly graphical interface (GUI) using Tkinter.
+- Supports prediction for multiple diseases such as Diabetes, Malaria, Jaundice, Dengue, and Tuberculosis.
+- Demonstrates the practical application of machine learning in healthcare.
+
+  ## Technologies Used
+
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python |
+| Machine Learning | Naïve Bayes |
+| Libraries | Pandas, NumPy, Scikit-learn |
+| GUI | Tkinter |
+| Development Environment | Visual Studio Code |
+| Version Control | Git & GitHub |
+
+## Project Workflow
+
+```text
+User Enters Symptoms
+          │
+          ▼
+Data Preprocessing
+(Cleaning & Feature Selection)
+          │
+          ▼
+Naïve Bayes Model
+          │
+          ▼
+Disease Prediction
+          │
+          ▼
+Display Result in Tkinter GUI
+```
+## Project Structure
+
+```text
+Disease-Prediction-System-Using-Machine-Learning/
+│
+├── README.md                  # Project documentation
+├── demo1.py                   # Main application
+├── Training.csv               # Training dataset
+├── Testing.csv                # Testing dataset
+├── hospital.webp              # GUI image/resource
+├── output.jpg                 # Sample output screenshot
+├── UML Diagrams.docx          # UML diagrams and system design
+```
