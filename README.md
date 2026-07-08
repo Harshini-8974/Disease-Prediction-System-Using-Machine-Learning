@@ -118,8 +118,6 @@ The image below shows the Disease Prediction System interface.
 
 ## Future Improvements
 
-## Future Improvements
-
 - Compare multiple machine learning algorithms for improved accuracy.
 - Develop a web application using Flask or Streamlit.
 - Integrate real-time healthcare datasets.
